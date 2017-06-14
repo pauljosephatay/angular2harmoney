@@ -1,0 +1,16 @@
+<md-sidenav-container>
+<md-sidenav #sidenav mode="over" class="app-sidenav">
+    <div class="side-entry closeToggle">
+	    <button class="app-icon-button" (click)="sidenav.toggle()">
+	      <i class="material-icons">clear</i>
+	    </button>
+	</div>    
+    <app-side-menu></app-side-menu>
+</md-sidenav>
+
+<app-hheader [sidenav]="sidenav"></app-hheader>	
+<main class="site-main">
+	<router-outlet></router-outlet>
+</main>
+	<app-hfooter></app-hfooter>
+</md-sidenav-container>
