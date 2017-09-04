@@ -4,6 +4,6 @@ The feature angular components in here are the start button that opens a modal f
 
 Published at https://pauljosephatay.github.io/angular2harmoney/
 
-Source code is under cleaning.
+Full source code is under cleaning to be published later.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
